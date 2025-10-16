@@ -1,27 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Game Mode Debate — MVP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Mode</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app">
-    <h1>Game Mode Debate</h1>
-    <div id="debate-container">
-      <!-- Здесь будут рендериться раунды и сообщения -->
-    </div>
-    <form id="debate-form">
-      <input type="text" id="user-input" placeholder="Введите аргумент…" autocomplete="off" />
-      <button type="submit">Отправить</button>
-    </form>
-    <div id="status"></div>
-    <button id="end-session">Завершить матч</button>
-    <a href="leaderboard.html" id="go-leaderboard">Лидерборд</a>
-  </div>
+  <h1>Welcome to Game Mode</h1>
 
-  <script src="script.js"></script>
-  <script src="metrics.js"></script>
+  <!-- ✅ Исправленные модули -->
+  <script type="module" src="script.js"></script>
+  <script type="module" src="metrics.js"></script>
 </body>
 </html>
